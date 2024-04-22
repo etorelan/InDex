@@ -59,7 +59,7 @@ def test_getPrice(dex, _fromAmount):
 def test_ethToToken(ethAmount, dex, token):
     account = get_account()
 
-    start_token_amount = 100000000000000000000
+    start_token_amount = 10**20
     approve_token(
         _token=token, _spender=dex, _amount=start_token_amount, account=account
     )
@@ -88,7 +88,7 @@ def test_tokenToEth(tokenAmount, dex, token):
 
     account = get_account()
 
-    start_token_amount = 100000000000000000000
+    start_token_amount = 10**20
     approve_token(
         _token=token, _spender=dex, _amount=start_token_amount, account=account
     )
@@ -118,7 +118,7 @@ def test_stake(dex, token, stakeAmount):
 
     account = get_account()
 
-    start_token_amount = 100000000000000000000
+    start_token_amount = 10**20
 
     approve_token(
         _token=token, _spender=dex, _amount=start_token_amount, account=account
@@ -154,7 +154,7 @@ def test_stake(dex, token, stakeAmount):
 def test_withdraw(dex, withdraw_amount, token):
     account = get_account()
 
-    start_token_amount = 1000000000000000000
+    start_token_amount = 10**18
 
     approve_token(
         _token=token, _spender=dex, _amount=start_token_amount, account=account

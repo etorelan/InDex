@@ -1,8 +1,7 @@
 //SPDX-License-Identifier: MIT
 /// @title DEX with staking functionality
 /// @author etorelan
-/// @notice Minimum viable DEX based on Scaffold-ETH's DEX Challenge(https://medium.com/@austin_48503/%EF%B8%8F-minimum-viable-exchange-d84f30bd0c90) with added staking functionality
-
+/// @notice Minimum viable DEX based on Scaffold-ETH's DEX Challenge
 pragma solidity ^0.8.13;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";

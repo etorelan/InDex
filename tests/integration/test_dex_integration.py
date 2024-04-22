@@ -2,7 +2,7 @@ from brownie import InDex, Token
 from web3 import Web3
 from scripts.helpful_scripts import get_account
 
-start_token_amount = 100000000000000000000
+start_token_amount = 10**20
 
 
 def test_dex_integration():
